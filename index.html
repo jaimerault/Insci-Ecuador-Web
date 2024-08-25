@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>InSCI Ecuador</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Guido A. Zäch Str. 4, 6207 Nottwil, Suiza </small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 02.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+41 41 939 65 65</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-1" href=""><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square rounded-circle bg-white text-primary me-0" href=""><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text-primary">
+                <!--<i class="far fa-hospital me-3"></i>-->
+                <img src="img/InSCI_Logo_3.png" alt="InSCI Ecuador" style="width: 60px; height: 60px;" class="me-3">
+                InSCI Ecuador
+            </h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active"> Inicio </a>
+                <a href="about.html" class="nav-item nav-link">¿Quienes somos?</a>
+                <a href="service.html" class="nav-item nav-link">Investigación EC</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Publicaciones</a>
+                        <a href="team.html" class="dropdown-item">Nuestros Investigadores</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonios</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>
+            </div>
+            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Contáctanos<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-primary p-0 mb-5">
+        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="display-4 text-white mb-5">
+                    Bienvenidos a InSCI Ecuador <br />
+                    Un proyecto entre Suiza y Ecuador
+                </h1>
+                <div class="row g-4">
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">6</h2>
+                            <p class="text-light mb-0">Investigadores</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">5</h2>
+                            <p class="text-light mb-0">Total Instituciones</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="border-start border-light ps-4">
+                            <h2 class="text-white mb-1" data-toggle="counter-up">570</h2>
+                            <p class="text-light mb-0">Total Encuestados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel header-carousel">
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel1.jpg" alt="" />
+                        <div class="owl-carousel-text">
+                            
+                            <!-- <h1 class="display-1 text-white mb-0">Schweizer Paraplegiker Forschung</h1>-->
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel2.jpg" alt="" />
+                        <div class="owl-carousel-text">
+                            
+                            <!-- <h1 class="display-1 text-white mb-0">PUCE</h1> -->
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel3.jpg" alt="" />
+                        <div class="owl-carousel-text">
+                            
+                            <!-- <h1 class="display-1 text-white mb-0">UIDE</h1> -->
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                        <img class="img-fluid" src="img/carousel4.jpg" alt="" />
+                        <div class="owl-carousel-text">
+                            
+                            <!-- <h1 class="display-1 text-white mb-0">FENEDIT</h1> -->
+                        </div>
+                    </div>
+                    <div class="owl-carousel-item position-relative">
+                      <img class="img-fluid" src="img/carousel5.jpg" alt="" />
+                      <div class="owl-carousel-text">
+                          
+                          <!-- <h1 class="display-1 text-white mb-0">Fundación Hermano Miguel</h1> -->
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Acerca de Inicio -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/inicio1.jpg" alt="" />
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/inicio2.jpg" alt=""
+                            style="margin-top: -10%" />
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/inicio3.png" alt=""
+                            style="margin-top: -15%" />
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/inicio4.png" alt=""
+                            style="margin-top: -10%" />
+                        <img class="img-fluid rounded w-75 align-self-end" src="img/inicio5.png" alt=""
+                            style="margin-top: -10%" />
+                        <img class="img-fluid rounded w-50 bg-white pt-3 pe-3" src="img/inicio6.png" alt=""
+                            style="margin-top: -10%" />
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Acerca del Proyecto
+                    </p>
+                    <h1 class="mb-4">InSCI Ecuador</h1>
+                    <p>
+                        InSCI - Es la primera encuesta internacional a la comunidad de
+                        lesionados medulares espinal (LME) aplicada en Ecuador en
+                        colaboración con el Centro Suizo para Paraplégicos (<a href="https://www.paraplegie.ch/spf/en/" target="_blank">Swiss Paraplegic Research - SPF</a>), en Nottwil,
+                        Suiza y la Pontificia Universidad Católica del
+                        Ecuador (<a href="https://www.puce.edu.ec/facultad-de-enfermeria/" target="_blank">PUCE</a>). La Universidad
+                        Internacional del Ecuador (<a href="https://www.uide.edu.ec/la-ciparq-estuvo-presente-en-la-comision-del-derecho-a-la-salud-de-la-asamblea-nacional/#" target="_blank">UIED</a>)
+                        también participa como colaborador. El proyecto cuenta con
+                        financiamiento del
+                        <a href="https://cls.unisg.ch/es/" target="_blank">Leading House for Latin America</a>, con fondos del Gobierno
+                        Suizo.
+                    </p>
+                    <p class="mb-4">
+                        InSCI forma parte del Sistema de Aprendizaje de Salud para la
+                        Lesión Medular (LHS-SCI). El LHS-SCI es un esfuerzo conjunto de la
+                        Sociedad Internacional de la Médula Espinal (ISCoS) y la Sociedad
+                        Internacional de Medicina Física y de Rehabilitación (ISPRM) para
+                        implementar las recomendaciones de las Perspectivas
+                        Internacionales sobre la Lesión Medular (IPSCI).
+                    </p>
+                    <p class="mb-4">
+                        InSCI busca recolectar información sobre las condiciones de vida
+                        de las personas que viven con LME con el objetivo de identificar
+                        areas de intervención en los sistemas sociales y de salud. El
+                        diseño de InSCI se basa en la Clasificación Internacional del
+                        Funcionamiento, la Discapacidad y la Salud
+                        (<a href="https://www.who.int/standards/classifications/international-classification-of-functioning-disability-and-health" target="_blank">ICF</a>).
+                        La primera encuesta InSCI se realizó entre 2017 y 2018 contó
+                        con la participación de 22 países en las 6 regiones de la
+                        Organización Mundial de la Salud (<a href="https://www.who.int/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank">OMS</a>). Los
+                        países participantes fueron: USA, Noruega, Francia, Japón,
+                        Suiza, Alemania, Australia, Tailandia, Indonesia, España, Rumania,
+                        Polonia, Malasia, Grecia, Africa del Sur, Lituania, Italia, Corea
+                        del Sur, Brasil, China y Marruecos. La próxima encuesta
+                        internacional está prevista para 2022 y contará con la
+                        participación de mas de 30 países, entre ellos Ecuador.
+                    </p>
+                    <p class="mb-4">
+                        Tanto el pilotaje, como la recolección de datos fueron posibles
+                        gracias a la colaboración activa de la Federación de personas con
+                        discapacidad física (<a href="https://fenedif.org/" target="_blank">FENEDIF</a>) y
+                        la Fundación Hermano Miguel.
+                    </p>
+                    <p>
+                        <i class="far fa-check-circle text-primary me-3"></i>Schweizer
+                        Paraplegiker Forschung
+                    </p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>PUCE</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>UIDE</p>
+                    <p>Con la colaboración de:</p>
+                    <p><i class="far fa-check-circle text-primary me-3"></i>FENEDIT</p>
+                    <p>
+                        <i class="far fa-check-circle text-primary me-3"></i>Fundación
+                        Hermano Miguel
+                    </p>
+                    <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Acerca de Fin -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px">
+                <p class="d-inline-block border rounded-pill py-1 px-4">Encuesta</p>
+                <h1>Lesionados Medulares</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Paraplejia incompleto</h4>
+                        <p class="mb-4">Gravedad de la lesión.</p>
+                        <p>
+                            Una lesión para incompleta significa que la persona tiene una
+                            lesión en la médula espinal que afecta las extremidades
+                            inferiores, pero que conserva parcialmente la capacidad
+                            sensorial o motora. Esto significa que aún pueden existir
+                            sensaciones o movimientos voluntarios en algunas áreas por
+                            debajo del nivel de la lesión.
+                        </p>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Paraplejia completo</h4>
+                        <p class="mb-4">Gravedad de la lesión.</p>
+                        <p>
+                          En una lesión para completa, la médula espinal está completamente dañada en el nivel de las extremidades inferiores,
+                          resultando en una pérdida total de funciones motoras y sensoriales por debajo del nivel de la lesión. La persona no
+                          tiene control ni sensación en las áreas afectadas.
+                        </p>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Tetraplejia incompleto</h4>
+                        <p class="mb-4">Gravedad de la lesión.</p>
+                        <p>
+                          La lesión tetra incompleta afecta las extremidades superiores e inferiores, pero mantiene cierto grado de función motora
+                          o sensorial por debajo del nivel de la lesión. Las personas con este tipo de lesión pueden tener movilidad parcial y
+                          conservar alguna sensibilidad en diferentes partes del cuerpo.
+                        </p>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Tetraplejia completo</h4>
+                        <p class="mb-4">Gravedad de la lesión.</p>
+                        <P>
+                          Una lesión tetra completa implica la pérdida total de función motora y sensorial en las extremidades superiores e
+                          inferiores debido a un daño severo en la médula espinal. Esto resulta en una parálisis completa de los brazos, manos,
+                          tronco y piernas.
+                        </P>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">Traumático</h4>
+                        <p class="mb-4">Etiología del LME.</p>
+                        <P>
+                          Las lesiones medulares traumáticas son aquellas causadas por un evento externo que provoca un daño severo a la médula
+                          espinal. Esto puede incluir accidentes de tránsito, caídas, heridas por armas de fuego o situaciones similares que
+                          impactan de manera directa y física la columna vertebral.
+                        </P>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                            style="width: 65px; height: 65px">
+                            <i class="fa fa-wheelchair text-primary fs-4"></i>
+                        </div>
+                        <h4 class="mb-3">No traumático</h4>
+                        <p class="mb-4">Etiología del LME.</p>
+                        <P>
+                          Las lesiones medulares no traumáticas son el resultado de condiciones médicas como tumores, enfermedades infecciosas,
+                          condiciones degenerativas, o malformaciones congénitas. Estas lesiones suelen desarrollarse de manera progresiva y no
+                          están asociadas a un evento externo repentino.
+                        </P>
+                        <a class="btn" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury" target="_blank"><i class="fa fa-plus text-primary me-3"></i>Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Actualidad Inicio -->
+    <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <p class="d-inline-block border rounded-pill text-light py-1 px-4">
+                            Actualidad
+                        </p>
+                        <h1 class="text-white mb-4">Entrega de Resultados</h1>
+                        <p class="text-white mb-4 pb-2">
+                          <b>InSCI Ecuador</b> ha trabajado durante los últimos meses para recolectar los datos de personas con lesión de médula espinal.
+                          Gracias al trabajo y colaboración de la Federación Nacional de Ecuatorianos con Discapacidad Física (FENEDIP) y a la
+                          Fundación Hermano Miguel, al momento, contamos con mas de 500 participantes, y esperamos poder incluir a más personas
+                          hasta final de este año.
+                        </p>
+                        <p class="text-white mb-4 pb-2">
+                          Para presentar los resultados preliminares, nos reuniremos en un evento académico organizado por la Pontificia
+                          Universidad del Ecuador (PUCE) y la Universidad Internacional del Ecuador (UIDE) con la participación de investigadores
+                          de Nottwil, Suiza. Si está interesado en participar, el evento es gratuito y abierto al público.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light"
+                                        style="width: 55px; height: 55px">
+                                        <i class="fa fa-users text-primary"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Sociodemográfico</p>
+                                        <h5 class="text-white mb-0">Módulo Internacinal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light"
+                                        style="width: 55px; height: 55px">
+                                        <i class="fa fa-medkit text-primary"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Problemas de Salud</p>
+                                        <h5 class="text-white mb-0">Módulo Internacinal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light"
+                                        style="width: 55px; height: 55px">
+                                        <i class="fa fa-ambulance text-primary"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Intencidad de Dolor, etc.</p>
+                                        <h5 class="text-white mb-0">Módulo Internacinal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light"
+                                        style="width: 55px; height: 55px">
+                                        <i class="fa fa-sign-language text-primary"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="text-white mb-2">Cuidador, etc.</p>
+                                        <h5 class="text-white mb-0">Módulo Nacinal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/actualidad.jpg"
+                            style="object-fit: cover" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Actualidad Fin -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        Guido A. Zäch Str. 4, 6207 Nottwil, Suiza
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-address-card me-3"></i>
+                        Swiss Paraplegic Research <br>
+                                InSCI Study Center<br>
+                                Guido A. Zäch Strasse 1<br>
+                                6207 Nottwil<br>
+                                Switzerland<br>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        contact@en.insci.network
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Apartados</h5>
+                    <a class="btn btn-link" href="index.html">Inicio</a>
+                    <a class="btn btn-link" href="about.html">¿Quiénes somos?</a>
+                    <a class="btn btn-link" href="service.html">Investigación EC</a>
+                    <a class="btn btn-link" href="feature.html">Publicaciones</a>
+                    <a class="btn btn-link" href="team.html">Nuestros Investigadores</a>
+                    <a class="btn btn-link" href="testimonial.html">Testimonios</a>
+                    <a class="btn btn-link" href="contact.html">Contacto</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Lesionados Medulares</h5>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Gravedad: Paraplejia incompleto</a>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Gravedad: Paraplejia completo</a>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Gravedad: Tetraplejia incompleto</a>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Gravedad: Tetraplejia completo</a>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Etiología: Traumático</a>
+                    <a class="btn btn-link" href="https://www.who.int/es/news-room/fact-sheets/detail/spinal-cord-injury">Etiología: No Traumático</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="position-relative mx-auto" style="max-width: auto">
+                        <img src="../img/piedepagina1.png" alt="Newsletter Image" class="img-fluid" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">InSCI Ecuador</a>, 
+                        Todos los derechos reservados.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By
+                        <a class="border-bottom" href="">InSCI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
